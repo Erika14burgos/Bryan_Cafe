@@ -169,9 +169,11 @@ body {
 
 footer {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   background-color: #f5e5d5;
-  color: #8b6a61;
+  color: black;
+  font-size: 14px;
+  margin-top: 20px;
 }
 
 .menu-item h3,
@@ -221,10 +223,78 @@ footer {
 h1 {
   font-family: "Pacifico", cursive;
   color: #6b4226;
+  text-align: center;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  padding-top: 60px;
 }
 
 h2,
 h3 {
   color: #d2b48c;
+  text-align: center;
+}
+
+.contact-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.form-section,
+.branches-section {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.branch {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.branch a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.branch a:hover {
+  text-decoration: underline;
+}
+
+#confirmationMessage {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
 }
