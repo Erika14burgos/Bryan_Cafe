@@ -21,15 +21,33 @@
     </header>
 
     <main>
-      <h2>Contact Us</h2>
-      <form id="enquiry-form">
-        <input type="text" name="firstName" placeholder="First Name" required />
-        <input type="text" name="lastName" placeholder="Last Name" required />
-        <input type="email" name="email" placeholder="Email" required />
-        <input type="text" name="subject" placeholder="Subject" required />
-        <textarea name="message" placeholder="Message" required></textarea>
-        <button type="submit">Submit</button>
-      </form>
+      <h1>Contact Us</h1>
+      <div class="form-section">
+        <form class="contact-form" id="enquiryForm">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required />
+
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required />
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="subject">Message Subject:</label>
+          <input type="text" id="subject" name="subject" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Submit</button>
+          <p id="confirmationMessage" style="display: none">
+            Your message has been sent!
+          </p>
+        </form>
+      </div>
+      <div class="branches-section">
+        <h2>Our Branches</h2>
+      </div>
     </main>
 
     <footer>
