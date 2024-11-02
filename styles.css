@@ -27,7 +27,7 @@ body::before {
   z-index: -1;
 }
 
-/* Estilos específicos para la página About en index.html */
+
 .about-section {
   display: flex;
   justify-content: center;
@@ -72,9 +72,10 @@ body::before {
   color: #333;
   line-height: 1.6;
   text-align: justify;
+  background-color: #eadacb;
+  border-radius: 10px;
 }
 
-/* Alineación específica para la sección "About" */
 @media (min-width: 1025px) {
   .about-section:first-of-type .about-container {
     flex-direction: row;
