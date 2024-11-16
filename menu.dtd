@@ -3,7 +3,7 @@
 <!ELEMENT item (name, price, description?, image?)>
 <!ELEMENT beverages (coffee, other)>
 <!ELEMENT coffee (size+)>
-<!ELEMENT size (name, price, description?)>
+<!ELEMENT size (name, price, description?, image)>
 <!ELEMENT other (item+)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
