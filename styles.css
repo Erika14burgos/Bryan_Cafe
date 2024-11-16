@@ -27,7 +27,6 @@ body::before {
   z-index: -1;
 }
 
-/* Estilos específicos para la página About en index.html */
 .about-section {
   display: flex;
   justify-content: center;
@@ -228,14 +227,21 @@ h3 {
   border-radius: 8px;
 }
 
-.form-section,
+.form-section {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px; 
+  padding-bottom: 0; 
+}
+
 .branches-section {
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  margin: 0;
+  margin-top: 10px; 
 }
 
 .contact-form {
